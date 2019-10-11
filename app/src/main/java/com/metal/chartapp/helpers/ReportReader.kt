@@ -54,6 +54,11 @@ class ReportReader(val context:Context) {
             try{
                 return ((SimpleDateFormat("MM/dd/yy h:mm a", Locale.US).parse(date_string).time))
             } catch (e:Exception) {
+                try {
+                    return ((SimpleDateFormat("MM/dd/yy kk:mm", Locale.US).parse(date_string).time))
+                } catch (e:Exception){
+
+                }
                 Log.e(TAG, e.toString())
                 return 0
             }
