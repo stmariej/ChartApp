@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChartApp</string>
+    <string name="btn_save">Save</string>
+    <string name="default_mac_address">test_mac</string>
+</resources>

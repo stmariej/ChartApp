@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#111111</color>
+    <color name="colorPrimaryDark">#111111</color>
+    <color name="colorAccent">#d81b41</color>
+
+    <color name="app_selector_color">#2098CC</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="alertColor">#ff2222</color>
+    <color name="white">#ffffff</color>
+    <color name="on_color">#ee5830</color>
+    <color name="wf_settings_list_text_color">#c7c7c7</color>
+    <color name="wf_setup_wizard_background_color">#111111</color>
+    <color name="wf_light_grey_text_color">#c7c7c7</color>
+    <color name="wf_orange_button_color">#F16924</color>
+
+
+    <color name="grey_01">#6b6b6b</color>
+    <color name="grey_02">#dfd7cc</color>
+    <color name="grey_03">#5e5e5e</color>
+    <color name="grey_04">#808080</color>
+    <color name="grey_05">#333333</color>
+    <color name="grey_06">#e9eef4</color>
+    <color name="grey_07">#8D8D8D</color>
+    <color name="grey_08">#8A8A8A</color>
+    <color name="grey_09">#b0b0b0</color>
+    <color name="grey_10">#e0e0e0</color>
+    <color name="blue_01">#39b5f2</color>
+    <color name="blue_02">#2c9ad1</color>
+    <color name="blue_03">#2A93C6</color>
+    <color name="blue_04">#C3E9FB</color>
+    <color name="grey_text_header">#535353</color>
+    <color name="high_humidity">@color/tempify_blue</color>
+    <color name="low_humidity">@color/tempify_red</color>
+    <color name="low_temperature">@color/tempify_blue</color>
+    <color name="high_temperature">@color/tempify_red</color>
+
+    <color name="temp_chart_color">#33b5e5</color>
+    <color name="humid_chart_color">#ff7f00</color>
+
+
+    <color name="tempify_blue">#2098CC</color>
+    <color name="tempify_red">#ff0000</color>
+    <color name="tempify_green">#228b22</color>
+
+</resources>

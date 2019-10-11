@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/buttonLeft"
+        android:layout_gravity="left|center_vertical"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:scaleType="center"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:background="@color/transparent"
+        android:drawableLeft="@mipmap/arrow_left" />
+
+    <TextView
+        android:id="@+id/titleText"
+        style="@style/main_title_text_white"
+        android:layout_gravity="center"
+        android:text="title" />
+
+    <Button
+        android:id="@+id/buttonRight"
+        android:layout_gravity="right|center_vertical"
+        android:text="@string/btn_save"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:background="@color/transparent"
+        android:drawableRight="@mipmap/settings" />
+</FrameLayout>
